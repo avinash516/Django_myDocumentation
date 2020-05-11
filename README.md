@@ -82,10 +82,10 @@
 ## **Project Creation**
   * **Now, to create a Project in spcefied folder where to do and now open cmd in same path :**
   `
-	           path		                   creating project
-    D:\Satheesh\MyPractice>     django-admin startproject College(projectname)
-    D:\Satheesh\MyPractice>cd College
-    D:\Satheesh\MyPractice\College`
+	           path		                   creating project`
+    `D:\Satheesh\MyPractice>     django-admin startproject College(projectname)`
+    `D:\Satheesh\MyPractice>cd College`
+    `D:\Satheesh\MyPractice\College`
  *  **Present we are in our django project(College) path.**
   
   
