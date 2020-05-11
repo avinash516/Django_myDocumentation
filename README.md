@@ -81,11 +81,12 @@
           '1.11'                   (1,11,0, 'final',1)
 ## **Project Creation**
   * **Now, to create a Project in spcefied folder where to do and now open cmd in same path :**
-  ```
+  `
 	           path		                   creating project
     D:\Satheesh\MyPractice>     django-admin startproject College(projectname)
     D:\Satheesh\MyPractice>cd College
-    D:\Satheesh\MyPractice\College
+    D:\Satheesh\MyPractice\College`
+ *  **Present we are in our django project(College) path.**
   
   
    
