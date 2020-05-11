@@ -69,6 +69,6 @@
   * **1. download python from website.**
   * **2. set all path for python and scripts.**
   * **3. heck wheather 'pip' is working or not in the 'cmd'**
-  * **4. install django # # (latest Version 2.0) wait for installation
-    `pip install Django==2.0.1"` or `pip install django`
+  * **4. install django # # (latest Version 2.0) wait for installation**
+      `pip install Django==2.0.1"` or `pip install django`
 
