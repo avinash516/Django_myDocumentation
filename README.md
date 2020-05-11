@@ -89,7 +89,7 @@
 * **Present we are in our Django Project(College) path.**
 * **Check in browser wheather its working or not**
   	```
-	    D:\Python\MyPractice\website>    python manage.py runserver 8080
+	    D:\Satheesh\MyPractice\College>    python manage.py runserver 8080
 	    localhost:8080/
 	    it is localhost address --> http://127.0.0.1:8080/
 	    it worked..!
