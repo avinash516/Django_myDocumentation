@@ -72,10 +72,10 @@
   * **4. install django # # (latest Version 2.0) wait for installation**
       `pip install Django==2.0.1"` or `pip install django`
   * **5.After installing to check the version of Django Framework.**
-    ```* **cmd>django-admin --version**
+    ```cmd>django-admin --version
                  (or)
-    * **cmd>python**
-    * **>>>import django**
-    * **>>>django.get_version()    or    django.VERSION**
-          **'1.11'                   (1,11,0, 'final',1)**```
+       cmd>python**
+       >>>import django**
+       >>>django.get_version()    or    django.VERSION**
+          '1.11'                   (1,11,0, 'final',1)```
 
