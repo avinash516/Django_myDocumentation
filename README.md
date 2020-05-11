@@ -40,6 +40,12 @@ ___
 
 ### MVT Architecture of Django  :
 
+* ** Every Web applications follows architectures**
+  * **MVC**
+  * **MVT**
+  * **etc..**
+
+
 <img src='mvt.png' alt='mvt' />
 
 
