@@ -40,7 +40,7 @@ ___
 
 ### MVT Architecture of Django  :
 
-* ** Every Web applications follows architectures**
+* **Every Web applications follows architectures**
   * **MVC (Model View Controller)**
   * **MVT (Model View Template)**
   * **etc..**
@@ -63,9 +63,9 @@ ___
 
 <img src='mvt.png' alt='mvt' />
   
-* **Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.
+* **Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.**
 
-If URL maps, a view is called that interact with model and template, it renders a template.
+**If URL maps, a view is called that interact with model and template, it renders a template.**
 
-Django responds back to the user and sends a template as a response.**
+**Django responds back to the user and sends a template as a response.**
 
