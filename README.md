@@ -57,6 +57,6 @@ ___
 * **Model  :**
   * **The Model helps to handle database. It is a data access layer which handles the data.**
 * **Template  :**
-  * **The Template is a presentation layer which handles User Interface part completely. **
-* **View:  **
+  * **The Template is a presentation layer which handles User Interface part completely.**
+* **View  :**
   * **The View is used to execute the business logic and interact with a model to carry data and renders a template.**
