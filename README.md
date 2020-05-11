@@ -85,6 +85,7 @@
 	           path		                   creating project
     D:\Satheesh\MyPractice>     django-admin startproject College(projectname)
     D:\Satheesh\MyPractice>cd College
-    D:\Satheesh\MyPractice\College```
-  * **Present we are in django project path   
+    D:\Satheesh\MyPractice\College
+  
+  
    
