@@ -15,5 +15,10 @@ ___
  * **Django is a Python web framework**
  * **A Framework provides a structure and common methods to make the life of a web application developer much easier for building    flexible, scalable and maintainable web applications.**
 
+### What is Django ?
 
+* **A Python web framework is a code library that provide tools and libraties ti simplify common web development operations.
+* **Django is a high-level and has MVC,MVT styled Architecture.
+* **Django web framework is written on quick and powerful python language.
+* **Django has a open-source collection of libraries for building afully functioning web application.
 
