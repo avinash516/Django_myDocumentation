@@ -36,3 +36,8 @@ ___
    * **Django is scalable in nature and has ability to quickly and flexibly switch from small to large scale application project.**
 * **OpenSource  :**
   * **Django is versatile in nature which allows it to build applications for different-different domains.**
+  
+
+### MVT Architecture of Django
+
+
