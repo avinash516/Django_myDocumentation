@@ -22,3 +22,9 @@ ___
 * **Django web framework is written on quick and powerful python language.**
 * **Django has a open-source collection of libraries for building afully functioning web application.**
 
+### Features of Django :
+
+ * **very fast**
+ * **Fully Loaded**
+ * **Secure**
+ * **Scalable**
