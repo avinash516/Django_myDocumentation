@@ -26,9 +26,10 @@ ___
 
 ### Features of Django :
 
- * **very fast**
- * **Fully Loaded**
- * **Secure**
+ * **very fast  :**
+ * **Fully Loaded  :**
+   * **Django includes various helping task modules and libraries which can be used to handle common Web development tasks. Django takes care of user authentication, content administration, site maps.**
+ * **Secure  :**
    * **Its user authentication system provides a secure way to manage user accounts and passwords.**
- * **Scalable**
+ * **Scalable  :**
    * **Django is scalable in nature and has ability to quickly and flexibly switch from small to large scale application project.**
