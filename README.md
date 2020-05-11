@@ -69,4 +69,4 @@
   * **download python from website.**
   * **check pip is working or not in command prompt.**
   * **open command prompt and type pip install django**
-  ~pip install django~
+  * `pip install django`
