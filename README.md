@@ -66,7 +66,9 @@
 * **Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.If URL maps, a view is called that interact with model and template, it renders a template.Django responds back to the user and sends a template as a response.**
 
 ## **Django Installation :**
-  * **download python from website.**
-  * **check pip is working or not in command prompt.**
-  * **open command prompt and type pip install django**
-  * `pip install django`
+  * **1. download python from website.**
+  * **2. set all path for python and scripts.**
+  * **3. heck wheather 'pip' is working or not in the 'cmd'**
+  * **4. install django # # (latest Version 2.0) wait for installation
+    `pip install Django==2.0.1"` or `pip install django`
+
