@@ -46,8 +46,17 @@ ___
   * **etc..**
 * Django is a MVT pattern.
 * MVC is slightly different from MVT as Django itself takes care of the Controller part.
-<img src='mvc.PNG' alt='mvc' /><img src='mvt1.PNG' alt='mvc' />
+<img src='mvc.PNG' alt='mvc' />
+
+<img src='mvt1.PNG' alt='mvc' />
 
 <img src='mvt.png' alt='mvt' />
 
-
+* ** MVT is a software Design patern**
+* **It is a collection of three important components Model View and Template.**
+* **Model  :**
+  * **The Model helps to handle database. It is a data access layer which handles the data.**
+* **Template  :**
+  * **The Template is a presentation layer which handles User Interface part completely. **
+* **View:  **
+  * **The View is used to execute the business logic and interact with a model to carry data and renders a template.**
