@@ -41,9 +41,10 @@ ___
 ### MVT Architecture of Django  :
 
 * ** Every Web applications follows architectures**
-  * **MVC**
-  * **MVT**
+  * **MVC (Model View Controller)**
+  * **MVT (Model View Template)**
   * **etc..**
+* Django is a MVT pattern.
 
 
 <img src='mvt.png' alt='mvt' />
