@@ -86,4 +86,4 @@
 	    D:\Satheesh\MyPractice>     django-admin startproject College(projectname)
 	    D:\Satheesh\MyPractice>cd College
 	    D:\Satheesh\MyPractice\College
-  * **Present we are in our Django Project(College) path.
+  * **Present we are in our Django Project(College) path.**
