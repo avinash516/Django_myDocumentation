@@ -38,6 +38,8 @@ ___
   * **Django is versatile in nature which allows it to build applications for different-different domains.**
   
 
-### MVT Architecture of Django
+### MVT Architecture of Django  :
+
+<img src='mvt.png' alt='mvt' />
 
 
