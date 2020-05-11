@@ -31,4 +31,4 @@ ___
  * **Secure**
    * **Its user authentication system provides a secure way to manage user accounts and passwords.**
  * **Scalable**
-  * **Django is scalable in nature and has ability to quickly and flexibly switch from small to large scale application project.**
+   * **Django is scalable in nature and has ability to quickly and flexibly switch from small to large scale application project.**
