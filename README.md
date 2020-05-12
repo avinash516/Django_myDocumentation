@@ -132,7 +132,7 @@
 	   	path('admin/', admin.site.urls),
 		path('Students/',include('Students.urls'))
 		]
-* **
+* **6. check in browser.**
 
 
 
