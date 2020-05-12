@@ -114,7 +114,7 @@
 		urlpatterns=[
 			path('index/',views.index,name="index")
 		]
-      * | here i am importing views from Students app and mention one path if we browse localhost:8000/Students/index then it goes to views part and gives return part as a output. 
+      > **_NOTE:_**here i am importing views from Students app and mention one path if we browse localhost:8000/Students/index then it goes to views part and gives return part as a output. 
 * **4. goto (Students/views.py file) Students folder open views.py file and add like this.**
 	```
 		from django.shortcuts import render
