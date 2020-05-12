@@ -123,8 +123,8 @@
 		from django.shortcuts import render
 		from django.http import HttpResponse
 
-      		def index(request):
-				return HttpResponse("<h2>Hello World</h2>")
+      	def index(request):
+			return HttpResponse("<h2>Hello World</h2>")
 > **_NOTE:_** import HttpResponse from http pkg and defining the function index.
 
 * **5. goto (College/urls.py file) College folder open urls.py file and add like this.**
