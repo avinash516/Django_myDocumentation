@@ -143,5 +143,5 @@
 
 > **_NOTE:_** here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 
-* **6. check in browser.**
+* **6. check in browser.** localhost:8080/Students/index
 * **You will get Hello World message**
