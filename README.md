@@ -102,5 +102,35 @@
 	 	D:\Satheesh\MyPractice\College>    python manage.py runserver 8080
 		localhost:8080/
 		it is localhost address --> http://127.0.0.1:8080/
+		
+### **urls.py :**
+* 1. we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).
+* 2. Now we find the Students App in our project(College).
+* 3. Now goto Students app folder and crerate "urls.py" file.
+
+	```
+		from django.urls import path
+		from Students import views
+		urlpatterns=[
+			path('index/',views.index,name="index")
+		]
+      
+* 4. goto Students/views.py file.
+	```
+		from django.shortcuts import render
+		from django.http import HttpResponse
+
+      		def index(request):
+			return HttpResponse("<h2>Hello World</h2>")
+* 5. 
+
+
+
+
+
+
+
+
+
 				
 
