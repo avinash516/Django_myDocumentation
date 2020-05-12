@@ -134,6 +134,7 @@
 	   	path('admin/', admin.site.urls),
 		path('Students/',include('Students.urls'))
 		]
+> **_NOTE:_** Django already has mentioned a URL here for the admin. The path function takes the first argument as a route of string or regex type.The view argument is a view function which is used to return a response (template) to the user.
 > **_NOTE:_** here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 * **6. check in browser.**
 
