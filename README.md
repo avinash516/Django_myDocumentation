@@ -114,10 +114,10 @@
 		urlpatterns=[
 			path('index/',views.index,name="index")
 		]
-> **_NOTE:_** here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return part as a output. 
+> **_NOTE:_** here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return template as a output. 
 * **4. goto (Students/views.py file) Students folder open views.py file and add like this.**
 
-> **_NOTE:_**Create a function hello in the views.py file. This function will be mapped from the url.py file.
+> **_NOTE:_**Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
 
 	
 		from django.shortcuts import render
@@ -144,3 +144,4 @@
 > **_NOTE:_** here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 
 * **6. check in browser.**
+* **You will get Hello World message**
