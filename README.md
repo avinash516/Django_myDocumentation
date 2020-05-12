@@ -121,8 +121,15 @@
 		from django.http import HttpResponse
 
       		def index(request):
-				     return HttpResponse("<h2>Hello World</h2>")
-* 5. 
+				return HttpResponse("<h2>Hello World</h2>")
+* 5. goto website/urls.py
+      from django.conf.urls import url,include
+      from django.contrib import admin
+
+      urlpatterns=[
+          url(r"^music/",include("music.urls")),
+          url(r'^admin/',admin.site.urls)
+      ]
 
 
 
