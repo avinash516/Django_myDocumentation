@@ -106,7 +106,7 @@
 ### **urls.py :**
 * **1. we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).**
 * **2. Now we find the Students App in our project(College).**
-* **3. Now goto Students app folder and crerate "urls.py" file and add like this**
+* **3. Now goto Students app folder and create "urls.py" file and add like this**
 
 	```
 		from django.urls import path
@@ -114,7 +114,7 @@
 		urlpatterns=[
 			path('index/',views.index,name="index")
 		]
-      
+      * >here i am importing views from Students app and mention one path if we browse localhost:8000/Students/index then it goes to views part and gives return part as a output. 
 * **4. goto (Students/views.py file) Students folder open views.py file and add like this.**
 	```
 		from django.shortcuts import render
