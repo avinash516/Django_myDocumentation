@@ -114,7 +114,7 @@
 		urlpatterns=[
 			path('index/',views.index,name="index")
 		]
-> **_NOTE:_** here i am importing views from Students app and mention one path if we browse localhost:8000/Students/index then it goes to views part and gives return part as a output. 
+> **_NOTE:_** here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return part as a output. 
 * **4. goto (Students/views.py file) Students folder open views.py file and add like this.**
 	```
 		from django.shortcuts import render
@@ -122,9 +122,11 @@
 
       		def index(request):
 				return HttpResponse("<h2>Hello World</h2>")
+> **_NOTE:_** import HttpResponse from http pkg and defining the function index.
 * **5. goto (College/urls.py file) College folder open urls.py file and add like this.**
 	
-	```from django.contrib import admin
+	```
+	   from django.contrib import admin
 	   from django.urls import path,include
 	   from appname(Students) import views
 	   
@@ -132,6 +134,7 @@
 	   	path('admin/', admin.site.urls),
 		path('Students/',include('Students.urls'))
 		]
+> **_NOTE:_** here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 * **6. check in browser.**
 
 
