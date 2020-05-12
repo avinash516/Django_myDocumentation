@@ -104,9 +104,9 @@
 		it is localhost address --> http://127.0.0.1:8080/
 		
 ### **urls.py :**
-* 1. we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).
-* 2. Now we find the Students App in our project(College).
-* 3. Now goto Students app folder and crerate "urls.py" file.
+* **1. we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).**
+* **2. Now we find the Students App in our project(College).**
+* **3. Now goto Students app folder and crerate "urls.py" file and add like this**
 
 	```
 		from django.urls import path
@@ -115,14 +115,14 @@
 			path('index/',views.index,name="index")
 		]
       
-* 4. goto Students/views.py file.
+* **4. goto (Students/views.py file) Students folder open views.py file and add like this.**
 	```
 		from django.shortcuts import render
 		from django.http import HttpResponse
 
       		def index(request):
 				return HttpResponse("<h2>Hello World</h2>")
-* **5. goto College/urls.py file**
+* **5. goto (College/urls.py file) College folder open urls.py file and add like this.**
 	
 	```from django.contrib import admin
 	   from django.urls import path,include
