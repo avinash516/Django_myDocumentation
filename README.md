@@ -122,15 +122,17 @@
 
       		def index(request):
 				return HttpResponse("<h2>Hello World</h2>")
-* 5. goto website/urls.py
-      from django.conf.urls import url,include
-      from django.contrib import admin
-
-      urlpatterns=[
-          url(r"^music/",include("music.urls")),
-          url(r'^admin/',admin.site.urls)
-      ]
-
+* **5. goto College/urls.py file**
+	
+	```from django.contrib import admin
+	   from django.urls import path,include
+	   from appname(Students) import views
+	   
+	   urlpatterns = [
+	   	path('admin/', admin.site.urls),
+		path('Students/',include('Students.urls'))
+		]
+* **
 
 
 
