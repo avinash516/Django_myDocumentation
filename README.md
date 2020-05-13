@@ -1,4 +1,4 @@
-# Django_myDocumentation   ......> By Satheesh Matampalli
+# Django_myDocumentation   ......>Developed By Annonamouse
 
 
 * **Python web Frameworks :**
