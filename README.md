@@ -151,6 +151,8 @@
 * **goto (College/urls.py file) College folder open urls.py file and add like this.**
 	
 > **_NOTE:_** Django already has mentioned a URL here for the admin. The path function takes the first argument as a route of string or regex type.The view argument is a view function which is used to return a response (template) to the user.
+
+
 	```
 	from django.contrib import admin
 	from django.urls import path,include
