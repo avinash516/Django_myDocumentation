@@ -91,7 +91,7 @@
 * **Now, to create a Project in spcefied folder where to do and now open cmd in same path :**
 	```
 			   path		                   creating project
-	    D:\Satheesh\MyPractice>     django-admin startproject College(projectname)
+	    D:\Satheesh\MyPractice>django-admin startproject College(projectname)
 	    D:\Satheesh\MyPractice>cd College
 	    D:\Satheesh\MyPractice\College
 	    
@@ -102,9 +102,9 @@
 * **Present we are in our Django Project(College) path.**
 * **Check in browser wheather its working or not**
   	```
-	    D:\Satheesh\MyPractice\College>    python manage.py runserver 8080
-	    localhost:8080/
-	    it is localhost address --> http://127.0.0.1:8080/
+	    D:\Satheesh\MyPractice\College>python manage.py runserver
+	    localhost:8000/
+	    it is localhost address --> http://127.0.0.1:8000/
 	    it worked..!
 	    
 <img src='view.PNG' alt='view' />
@@ -112,10 +112,10 @@
 ## **App Creation in Project**
 * **Create a new App in Project**
 	```
-	D:\Satheesh\MyPractice\College>    python manage.py startapp appname(Students)
-	D:\Satheesh\MyPractice\College>    python manage.py runserver 8080
-	localhost:8080/
-	it is localhost address --> http://127.0.0.1:8080/
+	D:\Satheesh\MyPractice\College>python manage.py startapp appname(Students)
+	D:\Satheesh\MyPractice\College>python manage.py runserver 8080
+	localhost:8000/
+	it is localhost address --> http://127.0.0.1:8000/
 <img src='app.PNG' alt='app' />	
 
 		
@@ -124,12 +124,13 @@
 * **Now we find the Students App in our project(College).**
 * **Now goto Students app folder and create "urls.py" file and add like this**
 
-  	
+  	```python code```
 	from django.urls import path
 	from Students import views
 	urlpatterns=[
-		path('index/',views.index,name="index")
-		]
+		path('index/',views.index,name="index"),
+
+	]
 
 > **_NOTE:_** here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return template as a output. 
 * **goto (Students/views.py file) Students folder open views.py file and add like this.**
