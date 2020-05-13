@@ -1,5 +1,5 @@
 # Django_myDocumentation   ......> By Satheesh Matampalli
-## Django Introduction :
+
 
 * **Python web Frameworks :**
   * Django
@@ -10,7 +10,9 @@
   * etc.....
 ### What is a web Framework?
  * A web framework or web application framework is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications.
- 
+
+## Django Introduction :
+
 ### Why django Framework?
  * Django is a Python web framework
  * A Framework provides a structure and common methods to make the life of a web application developer much easier for building    flexible, scalable and maintainable web applications.
@@ -63,11 +65,20 @@
 * Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.If URL maps, a view is called that interact with model and template, it renders a template.Django responds back to the user and sends a template as a response.
 
 ## **Django Installation :**
-  * ** download python from website based on your system properties 64/32.** [Download Link](https://www.python.org/downloads/windows/)
-  * **set all path for python and scripts.**
-  * **heck wheather 'pip' is working or not in the 'cmd'**
-  * **install django # # (latest Version 2.0) wait for installation**
-      `pip install Django==2.0.1"` or `pip install django`
+  * **download python from website based on your system properties 64/32.** [Download Link](https://www.python.org/downloads/windows/)**
+  	* Prefer to python version is 3.7.6
+	* if we use below 3.4.3 version we need to give manual path for python and scripts,otherwise pip does'nt work.
+  * **Download sublimetext or any other editor tools for editing purpose.**.[Download Link](https://www.sublimetext.com/3)
+  * **ceck wheather 'pip' is working or not in the 'cmd'**
+  
+  <img src='pip.PNG' alt='pip' />
+  
+  * **install django # # (latest Version 3.0) wait for installation**
+  * if you want perticular version then try `pip install Django==3.0.1"` or 
+  * By Default version try `pip install django`
+  
+  <img src='django.PNG' alt='django' />
+  
   * **After installing to check the version of Django Framework.**
     ```
        cmd>django-admin --version
@@ -83,6 +94,11 @@
 	    D:\Satheesh\MyPractice>     django-admin startproject College(projectname)
 	    D:\Satheesh\MyPractice>cd College
 	    D:\Satheesh\MyPractice\College
+	    
+<img src='project.PNG' alt='project' />
+	    
+	    
+	    
 * **Present we are in our Django Project(College) path.**
 * **Check in browser wheather its working or not**
   	```
@@ -100,14 +116,13 @@
 	D:\Satheesh\MyPractice\College>    python manage.py runserver 8080
 	localhost:8080/
 	it is localhost address --> http://127.0.0.1:8080/
-	
+<img src='app.PNG' alt='app' />	
 
 		
 ## **urls.py :**
 * **we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).**
 * **Now we find the Students App in our project(College).**
 * **Now goto Students app folder and create "urls.py" file and add like this**
-> **_NOTE:_**Download sublimetext or any other editor tools.[Download Link](https://www.sublimetext.com/3)
 
   	
 	from django.urls import path
