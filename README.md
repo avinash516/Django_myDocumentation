@@ -145,6 +145,9 @@
 
 * **6. check in browser.** localhost:8080/Students/index
 
-<img src='output.PNG' alt='output' />
+
+<img src='output.PNG' width="50%" height="30%" alt='output' />
+
+
 
 * **You will get Hello World message**
