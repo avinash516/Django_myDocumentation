@@ -90,6 +90,8 @@
 	    localhost:8080/
 	    it is localhost address --> http://127.0.0.1:8080/
 	    it worked..!
+	    
+<img src='view.PNG' alt='view' />
   
 ## **App Creation in Project**
 * **Create a new App in Project**
