@@ -116,7 +116,7 @@
 * **Create a new App in Project**
 	```
 	D:\Satheesh\MyPractice\College>python manage.py startapp appname(Students)
-	D:\Satheesh\MyPractice\College>python manage.py runserver 8080
+	D:\Satheesh\MyPractice\College>python manage.py runserver
 	localhost:8000/
 	it is localhost address --> http://127.0.0.1:8000/
 <img src='app.PNG' alt='app' />	
@@ -144,16 +144,13 @@
 	from django.http import HttpResponse
 	def index(request):
 			return HttpResponse("<h2>Hello World</h2>")
-> _NOTE:_Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
+* Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
 
-
-
-			
-> **_NOTE:_** import HttpResponse from http pkg and defining the function index.
+> **_NOTE:_** import HttpResponse from http package and defining the function index.
 
 * **goto (College/urls.py file) College folder open urls.py file and add like this.**
 	
-> **_NOTE:_** Django already has mentioned a URL here for the admin. The path function takes the first argument as a route of string or regex type.The view argument is a view function which is used to return a response (template) to the user.
+* Django already has mentioned a URL here for the admin. The path function takes the first argument as a route of string or regex type.The view argument is a view function which is used to return a response (template) to the user.
 
 
 	
@@ -165,7 +162,7 @@
 			path('Students/',include('Students.urls'))
 			]
 
-> **_NOTE:_** here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
+* here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 
 * **check in browser.** localhost:8080/Students/index
 
