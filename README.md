@@ -69,17 +69,17 @@
   	* Prefer to python version is 3.7.6
 	* if we use below 3.4.3 version we need to give manual path for python and scripts,otherwise pip does'nt work.
   * **Download sublimetext or any other editor tools for editing purpose.**.[Download Link](https://www.sublimetext.com/3)
-  * **ceck wheather 'pip' is working or not in the 'cmd'**
+  * ceck wheather 'pip' is working or not in the 'cmd'
   
   <img src='pip.PNG' alt='pip' />
   
-  * **install django # # (latest Version 3.0) wait for installation**
+  * install django # # (latest Version 3.0) wait for installation
   * if you want perticular version then try `pip install Django==3.0.1"` or 
   * By Default version try `pip install django`
   
   <img src='django.PNG' alt='django' />
   
-  * **After installing to check the version of Django Framework.**
+  * After installing to check the version of Django Framework.
     ```
        cmd>django-admin --version
                  (or)
@@ -91,7 +91,7 @@
 	  
 	  
 ## **Project Creation**
-* **Now, to create a Project in spcefied folder where to do and now open cmd in same path :**
+* Now, to create a Project in spcefied folder where to do and now open cmd in same path :
 	```
 			   path		                   creating project
 	    D:\Satheesh\MyPractice>django-admin startproject College(projectname)
@@ -102,8 +102,8 @@
 	    
 	    
 	    
-* **Present we are in our Django Project(College) path.**
-* **Check in browser wheather its working or not**
+* Present we are in our Django Project(College) path.
+* Check in browser wheather its working or not
   	```
 	    D:\Satheesh\MyPractice\College>python manage.py runserver
 	    localhost:8000/
@@ -113,7 +113,7 @@
 <img src='view.PNG' alt='view' />
   
 ## **App Creation in Project**
-* **Create a new App in Project**
+* Create a new App in Project
 	```
 	D:\Satheesh\MyPractice\College>python manage.py startapp appname(Students)
 	D:\Satheesh\MyPractice\College>python manage.py runserver
@@ -123,9 +123,9 @@
 
 		
 ## **urls.py :**
-* **we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).**
-* **Now we find the Students App in our project(College).**
-* **Now goto Students app folder and create "urls.py" file and add like this**
+* we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).
+* Now we find the Students App in our project(College).
+* Now goto Students app folder and create "urls.py" file and add like this
 
   	```
 	from django.urls import path
