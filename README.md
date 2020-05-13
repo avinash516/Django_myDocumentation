@@ -46,10 +46,7 @@
   * etc..
 * Django is a MVT pattern.
 * MVC is slightly different from MVT as Django itself takes care of the Controller part.
-<img src='mvc.PNG' alt='mvc' />
-
-<img src='mvt1.PNG' alt='mvc' />
-
+<img src='mvc-mvt.PNG' alt='mvc' />
 
 
 * MVT is a software Design patern
