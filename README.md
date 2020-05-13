@@ -137,7 +137,7 @@
 
 > _NOTE:_ here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return template as a output. 
 
-* **goto (Students/views.py file) Students folder open views.py file and add like this.**
+* goto (Students/views.py file) Students folder open views.py file and add like this.
 	```
 		
 	from django.shortcuts import render
@@ -148,7 +148,7 @@
 
 > **_NOTE:_** import HttpResponse from http package and defining the function index.
 
-* **goto (College/urls.py file) College folder open urls.py file and add like this.**
+* goto (College/urls.py file) College folder open urls.py file and add like this.
 	
 * Django already has mentioned a URL here for the admin. The path function takes the first argument as a route of string or regex type.The view argument is a view function which is used to return a response (template) to the user.
 
@@ -164,7 +164,7 @@
 
 * here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 
-* **check in browser.** localhost:8080/Students/index
+* check in browser. localhost:8080/Students/index
 
 
 	<img src='output.PNG' width="50%" height="30%" alt='output' />
