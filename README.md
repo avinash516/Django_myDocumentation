@@ -87,6 +87,9 @@
        >>>import django
        >>>django.get_version()    or    django.VERSION
           '1.11'                   (1,11,0, 'final',1)
+<img src='dversion.PNG' alt='pip' />
+	  
+	  
 ## **Project Creation**
 * **Now, to create a Project in spcefied folder where to do and now open cmd in same path :**
 	```
