@@ -154,13 +154,13 @@
 
 
 	```
-	from django.contrib import admin
-	from django.urls import path,include
-	from appname(Students) import views
-	urlpatterns = [
-	   	path('admin/', admin.site.urls),
-		path('Students/',include('Students.urls'))
-		]
+		from django.contrib import admin
+		from django.urls import path,include
+		from appname(Students) import views
+		urlpatterns = [
+	   		path('admin/', admin.site.urls),
+			path('Students/',include('Students.urls'))
+			]
 
 > **_NOTE:_** here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 
