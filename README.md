@@ -108,18 +108,19 @@
 * **1. we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).**
 * **2. Now we find the Students App in our project(College).**
 * **3. Now goto Students app folder and create "urls.py" file and add like this**
-> **_NOTE:_**Download sublimetext or any other editor tools.[Download Link](https://www.sublimetext.com/3)**
-```
+> **_NOTE:_**Download sublimetext or any other editor tools.[Download Link](https://www.sublimetext.com/3)
+  	```
 	from django.urls import path
 	from Students import views
 	urlpatterns=[
 		path('index/',views.index,name="index")
 		]
+
 > **_NOTE:_** here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return template as a output. 
 * **4. goto (Students/views.py file) Students folder open views.py file and add like this.
 
 > **_NOTE:_**Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
-```
+	```
 	from django.shortcuts import render
 	from django.http import HttpResponse
 	def index(request):
