@@ -110,7 +110,7 @@
 * **3. Now goto Students app folder and create "urls.py" file and add like this**
 > **_NOTE:_**Download sublimetext or any other editor tools.[Download Link](https://www.sublimetext.com/3)
 
-  	```
+  	
 	from django.urls import path
 	from Students import views
 	urlpatterns=[
@@ -122,7 +122,7 @@
 
 > **_NOTE:_**Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
 
-	```
+	
 	from django.shortcuts import render
 	from django.http import HttpResponse
 	def index(request):
