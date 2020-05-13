@@ -136,7 +136,8 @@
 
 * **goto (Students/views.py file) Students folder open views.py file and add like this.**
 
-> **_NOTE:_**Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
+> _NOTE:_Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
+	```
 
 	
 	from django.shortcuts import render
