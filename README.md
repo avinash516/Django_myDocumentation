@@ -124,13 +124,13 @@
 * **Now we find the Students App in our project(College).**
 * **Now goto Students app folder and create "urls.py" file and add like this**
 
-  	```python code```
+  	```
 	from django.urls import path
 	from Students import views
 	urlpatterns=[
 		path('index/',views.index,name="index"),
 
-	]
+	]```
 
 > **_NOTE:_** here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return template as a output. 
 * **goto (Students/views.py file) Students folder open views.py file and add like this.**
