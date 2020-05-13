@@ -63,12 +63,12 @@
 * Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.If URL maps, a view is called that interact with model and template, it renders a template.Django responds back to the user and sends a template as a response.
 
 ## **Django Installation :**
-  * **1. download python from website based on your system properties 64/32.** [Download Link](https://www.python.org/downloads/windows/)
-  * **2. set all path for python and scripts.**
-  * **3. heck wheather 'pip' is working or not in the 'cmd'**
-  * **4. install django # # (latest Version 2.0) wait for installation**
+  * ** download python from website based on your system properties 64/32.** [Download Link](https://www.python.org/downloads/windows/)
+  * **set all path for python and scripts.**
+  * **heck wheather 'pip' is working or not in the 'cmd'**
+  * **install django # # (latest Version 2.0) wait for installation**
       `pip install Django==2.0.1"` or `pip install django`
-  * **5.After installing to check the version of Django Framework.**
+  * **After installing to check the version of Django Framework.**
     ```
        cmd>django-admin --version
                  (or)
@@ -104,9 +104,9 @@
 
 		
 ## **urls.py :**
-* **1. we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).**
-* **2. Now we find the Students App in our project(College).**
-* **3. Now goto Students app folder and create "urls.py" file and add like this**
+* **we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).**
+* **Now we find the Students App in our project(College).**
+* **Now goto Students app folder and create "urls.py" file and add like this**
 > **_NOTE:_**Download sublimetext or any other editor tools.[Download Link](https://www.sublimetext.com/3)
 
   	
@@ -117,7 +117,7 @@
 		]
 
 > **_NOTE:_** here i am importing views from Students app and mentioned one path because,if we browse localhost:8000/Students/index then it goes to views part index function and gives return template as a output. 
-* **4. goto (Students/views.py file) Students folder open views.py file and add like this.**
+* **goto (Students/views.py file) Students folder open views.py file and add like this.**
 
 > **_NOTE:_**Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
 
@@ -129,7 +129,7 @@
 			
 > **_NOTE:_** import HttpResponse from http pkg and defining the function index.
 
-* **5. goto (College/urls.py file) College folder open urls.py file and add like this.**
+* **goto (College/urls.py file) College folder open urls.py file and add like this.**
 	
 > **_NOTE:_** Django already has mentioned a URL here for the admin. The path function takes the first argument as a route of string or regex type.The view argument is a view function which is used to return a response (template) to the user.	
 	
@@ -145,7 +145,7 @@
 
 > **_NOTE:_** here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
 
-* **6. check in browser.** localhost:8080/Students/index
+* **check in browser.** localhost:8080/Students/index
 
 
 	<img src='output.PNG' width="50%" height="30%" alt='output' />
