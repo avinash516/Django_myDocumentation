@@ -98,9 +98,10 @@
 	    D:\Satheesh\MyPractice>cd College
 	    D:\Satheesh\MyPractice\College
 	    
+	    
 <img src='project.PNG' alt='project' />
 	    
-	    
+<img src='folder1.PNG' alt='folder1' />	    
 	    
 * Present we are in our Django Project(College) path.
 * Check in browser wheather its working or not
@@ -120,7 +121,7 @@
 	localhost:8000/
 	it is localhost address --> http://127.0.0.1:8000/
 <img src='app.PNG' alt='app' />	
-
+<img src='folder11.PNG' alt='folder11' />
 		
 ## **urls.py :**
 * we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).
