@@ -145,6 +145,8 @@
 	from django.http import HttpResponse
 	def index(request):
 			return HttpResponse("<h2>Hello World</h2>")
+			
+* **HttpResponse  :** is a response class with string data. While HttpRequest is created by Django, HttpResponse is created by programmer.
 * Create a function index in the views.py file. This function will be mapped from the Students/urls.py file.
 
 > **_NOTE:_** import HttpResponse from http package and defining the function index.
