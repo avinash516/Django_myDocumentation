@@ -166,12 +166,25 @@
 			]
 
 * here we are importing the include because all the app urls are need to include in project urls.py file,so we are import include and giving path for browser.
-
-* check in browser. localhost:8080/Students/index
+* check in browser. localhost:8000/Students/index
 
 
 	<img src='output.PNG' width="50%" height="30%" alt='output' />
 
+* In anothe rway to represent url is without creating urls.py file in app Students add path in project urls.py file and import the Students app views in project urls.py file follow like this...
+	```
+		from django.contrib import admin
+		from django.urls import path
+		from appname(Students) import views
+		urlpatterns = [
+	   		path('admin/', admin.site.urls),
+			path('index/',views.index,name='index'),
+			]
+		
+
+* check in browser. localhost:8000/index
+
+<img src='output.PNG' width="50%" height="30%" alt='output' />
 
 
 * **You will get Hello World message**
