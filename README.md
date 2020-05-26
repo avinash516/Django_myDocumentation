@@ -69,7 +69,7 @@
   	* Prefer to python version is 3.7.6
 	* if we use below 3.4.3 version we need to give manual path for python and scripts,otherwise pip does'nt work.
   * **Download sublimetext or any other editor tools for editing purpose.**.[Download Link](https://www.sublimetext.com/3)
-  * ceck wheather 'pip' is working or not in the 'cmd'
+  * check wheather 'pip' is working or not in the 'cmd'
   
   <img src='pip.PNG' alt='pip' />
   
